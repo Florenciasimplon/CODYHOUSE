@@ -1,0 +1,219 @@
+    .filtre{
+        background-image: url(../../assets/images/marble-2398946_960_720.webp);
+        background-position: 50% 0px, center;
+        background-repeat:repeat-y;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Times New Roman', Times, serif;
+
+        .filter{
+            display: flex;
+            justify-content: center;
+            width: 60%
+        }
+        .filter-menu{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 20px;
+            .geo{
+                width: 19%;
+                font-size: 16px;
+                text-align: center;
+                height: 25px;
+
+            }
+            #datepicker{
+                width: 19%;
+                font-size: 16px; 
+                height: 25px;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+                color: gray;
+            }
+            .boat{
+                font-size: 16px; 
+                width: 19%;
+                height: 25px;
+                text-align: center;
+                color: gray;
+            }
+            .btnsend{
+                width: 19%;
+                height: 25px;
+                font-size: 16px;
+                background-color:black;
+                color:white;
+                border: none;
+                border-radius: 10px;
+            }
+        }
+        .resultat{
+
+            p{
+                font-size: small;
+                text-align: center;
+            }
+            
+        }
+    }
+    .selection{
+        font-size: 16px;
+        color: gray;
+        
+        width: 63%;
+        font-family: 'Times New Roman', Times, serif;
+        h6{
+            display: contents;
+            color:#343a40 ;
+            font-family: 'Times New Roman', Times, serif
+        }
+        select {
+            width: 23%;
+            font-size: 16px; 
+            height: 25px;
+            color: gray;
+        }
+        
+    }
+    .content-info{
+        width: 80%;
+        height: 100%;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 auto;
+        .cardss{
+            width: 100%;
+            
+            .card {
+                display: flex;
+                width: 28%;
+                transition: 0.3s;
+                background-color: white;
+                position: relative;
+                display: inline-table;
+                margin: 1rem;
+               .card:hover {
+                box-shadow: 0 16px 36px 0 rgba(0,0,0,0.7);
+                 transform: translate(0,-5px);
+                }
+                 h2 {
+                    margin: 0;
+                    margin-top: 2px;
+                 }
+             p{
+                font-size: 16px;
+                color: gray;
+             }
+        }
+    
+    }
+    .pub2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 800%;
+    margin-top: 2vw;
+    box-shadow: 0 16px 36px 0 rgba(223, 218, 218, 0.7);
+    transform: translate(0,-5px);
+    
+    }
+
+    .pub{
+        border: 1px solid black;
+        border-color: #a08a0e;
+        display: flex;
+        width: 100%;
+        height: 60%;
+
+
+       }
+       .pub3{
+        border: 1px solid black;
+        border-color: #a08a0e;
+        display: flex;
+        width: 100%;
+        height: 36%;
+        margin-top: 3vw;
+       }
+    }
+       .actualiter{
+        background-image: url(../../assets/images/marble-2398946_960_720.webp);
+        background-position: 50% 0px, center;
+        background-repeat:repeat-y;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Times New Roman', Times, serif;
+           h3{
+               text-align:left;
+               margin-top: 1vw;
+               color: gray;
+               font-family: 'Times New Roman', Times, serif;
+               text-decoration: underline 2.5px #a08a0e;
+           }
+           .containe-carousel{
+            display: flex;
+            justify-content: center;
+            width: 75%;
+            
+            
+                .wrapper{
+                  width: 100%;
+                  
+      
+                  .carousel{
+                    width: 100%;
+                    margin: auto;
+                    padding: 0 30px;
+                   
+      
+                    .card{
+                      background-color: rgba(18, 18, 19, 0.699);
+                      text-align: center;
+                      color: aliceblue;
+                      margin: 20px 0;
+                      border-radius: 10px;
+                      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+                      height: 100%;
+                    }
+                    p{
+                        color: white;
+                        font-size: 16px;
+                    }
+                    h6{
+                        color:black;
+                    }
+                }
+                .info-card{
+                .btn-book{
+                    background-color: gray;
+                    border-radius: 12px;
+                    color: white;
+                    margin-bottom: 1vw;
+                    margin-top: 1vw;
+                }
+            }
+      
+                  .owl-dots{
+                    text-align: center;
+                    margin-top: 40px;
+                    margin-bottom: 3vw;
+                  }
+                  .owl-dot{
+                    height: 15px;
+                    width: 45px;
+                    border-radius: 25px;
+                    cursor: pointer;
+                    outline: none;
+                    margin: 0 5px;
+                    border: 2px solid rgb(3, 3, 3);  
+                  }
+                  .owl-dot:hover{
+                    background-color:rgba(0, 0, 0, 0.678);
+                  }
+                }
+          }
+        
+}

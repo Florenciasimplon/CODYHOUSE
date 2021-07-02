@@ -1,0 +1,76 @@
+h3{
+    text-align: center;
+    color: rgba(66, 83, 88, 0.822);
+}
+.form{
+    justify-content: center;
+    display: flex;
+    
+}
+.pagecreate{
+    padding: 45px;
+}
+.title{
+    margin-left: 8vw;
+    color: rgb(92, 90, 90);
+    padding-top: 30px;
+} 
+.rep{
+    color: rgb(37, 35, 35);
+    margin-left: 9vw;
+   
+}
+.valide{
+    height: 26px;
+    width: 79px;
+    border: none;
+    background-color: #cbced2;
+    color: darkgreen;
+    margin-left: inherit;
+    margin-top: 2vw;
+}
+.compteur{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    margin-top: 10vw;
+    color: rgb(92, 90, 90);
+    font-family: 'Times New Roman', Times, serif;
+}
+.total{
+    color: rgba(13, 59, 102, 0.733);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background: rgba(92, 90, 90, 0.445);;
+    color: rgba(13, 59, 102, 0.733);
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 38px;
+    position: absolute;
+    left: 50%;
+    color:  rgba(13, 59, 102, 0.733);
+}
+#buttons {
+    position: absolute;
+    top: 35%;
+    left: 54.4%;
+    transform: translate(-51.6%, -45%);
+
+}
+#buttons li {
+    display: inline;
+   
+}
+.description {
+    color: green;
+    opacity: 0;
+    transition-duration: 2s;
+}
